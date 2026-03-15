@@ -9,7 +9,6 @@
 #define FORMULA(t) FORMULA1(t)
 
 // these all sound different, experiment
-// found most of these online, some i made up by accident
 
 #define FORMULA1(t) ( (t) * ((t)>>5 | (t)>>8) )           // classic, sounds melodic
 #define FORMULA2(t) ( (t) * (((t)>>9|(t)>>13) & 25 & (t)>>6) )  // glitchy
